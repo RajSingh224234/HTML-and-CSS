@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title>Box-Sizing</title>
+		<style>
+			*{
+				margin:0px;
+				padding:0px;
+				box-sizing:border-box;
+			}
+			.box{
+				height:400px;
+				width:800px;
+				border:2px solid #000;
+				background:red;
+				margin:50px auto;
+			}
+			.inner{
+				height:398px;
+				width:398px;
+				border:2px solid #000;
+				float:left;
+				background:yellow;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<div class="inner"></div>
+			<div class="inner"></div>
+			
+		</div>
+	</body>
+</html>

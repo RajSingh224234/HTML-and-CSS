@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>Position Relation</title>
+		<style>
+			.outer{
+				height:300px;
+				width:300px;
+				margin:0px auto;
+				border:2px solid #000;
+				position:relative;
+			}
+			.outer .inner{
+				height:50px;
+				width:50px;
+				border:2px solid red;
+				border-radius :50%;
+				background:red;
+				position:absolute;
+				top:40%;
+				left:40%;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="outer">
+			<div class="inner"></div>
+		</div>
+	</body>
+</html>

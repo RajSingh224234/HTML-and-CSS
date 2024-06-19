@@ -1,0 +1,462 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	font-family:arial;
+}
+/*hero section starts--> from here*/
+.hero{
+	height:800px;
+	width:100%;
+	background:url(images/banner.jpg);
+	background-size:cover;
+}
+.logo{
+	height:240px;
+	width:100%;
+	float:left;
+}
+.logo1{
+	height:100px;
+	width:50%;
+	float:left;
+	padding-top:40px;
+	padding-left:110px;
+}
+
+.logo1 a{
+	text-decoration:none;
+}
+.logo1 h4{
+	color:#fff;
+	font-size:35px;
+}
+.logo2{
+	height:100px;
+	width:50%;
+	float:left;
+}
+.navbar{
+	padding-top:50px;
+	padding-left:50px;
+}
+.navbar a{
+	margin:20px;
+	text-decoration:none;
+	color:#fff;
+	font-size:20px;
+}
+.enjoy{
+	margin-left:100px;
+	font-size:14px;
+	color:orange;
+}
+.plan{
+	font-size:45px;
+	margin-left:100px;
+	color:#fff;
+}
+.para{
+	text-align:justify;
+	margin-left:100px;
+	margin-top:15px;
+	color:#fff;
+	letter-spacing:2px;
+	line-height:30px;
+	font-size:14px;
+	margin-bottom:20px;
+}
+.read{
+	padding-left:100px;
+	color:#fff;
+	letter-spacing:2px;
+	line-height:30px;
+	font-size:14px;
+	text-decoration:none;
+	background:orange;
+	padding:15px 25px;
+	border-radius:2px;
+	margin-left:100px;
+	
+}
+/*hero section end-->  here*/
+
+/*section-1 starts-->from  here*/
+.section-1{
+	height:1000px;
+	width:100%;
+}
+.first{
+	height:400px;
+	width:100%;
+}
+.first h2{
+	padding-top:80px;
+	font-size:40px;
+}
+.first-icon{
+	height:300px;
+	width:33.3%;
+	float:left;
+}
+.first-icon img{
+	margin-left:200px;
+	margin-top:50px;
+}
+.first-icon h4{
+	text-align:center;
+	margin-top:35px;
+	font-size:25px;
+}
+.first-icon p{
+	text-align:center;
+	margin-top:30px;
+	line-height:30px;
+	font-size:18px;
+}
+.second{
+	height:600px;
+	width:100%;
+}
+.second-icon{
+	height:600px;
+	width:50%;
+	float:left;
+}
+.second-icon img{
+	margin:60px;
+}
+.second2-icon{
+	height:600px;
+	width:50%;
+	float:left;
+}
+.second2-icon img{
+	margin-top:50px;
+}
+.second2-icon h4{
+	margin-top:35px;
+	font-size:25px;
+}
+.second2-icon p{
+	margin-top:10px;
+	line-height:30px;
+	font-size:18px;
+}
+/* section-1 end-->  here*/
+
+
+/* section-2 start--> from here*/
+
+.section-2{
+	height:350px;
+	width:100%;
+	background:darkblue;
+}
+.blue{
+	height:200px;
+	width:25%;
+	float:left;
+	padding-top:100px;
+	padding-left:15px;
+}
+.blue h5{
+	font-size:50px;
+	margin-top:10px;
+	color:#fff;
+}
+.blue h4{
+	font-size:17px;
+	letter-spacing:2px;
+	margin-top:15px;
+	color:#fff;
+}
+/* section-2 end--> from here*/
+
+/* section-3 start--> from here*/
+.section-3{
+	height:800px;
+	width:100%;
+}
+.section-3 h2{
+	font-size:45px;
+	padding-top:100px;
+}
+.photo{
+	height:500px;
+	width:100%;
+	margin-top:50px;
+}
+.photos{
+	height:500px;
+	width:33.3%;
+	float:left;
+}
+.photos h6{
+	text-align:center;
+	padding-top:20px;
+	font-size:13px;
+	color:orange;
+}
+.photos h4{
+
+	font-size:20px;
+	font-weight:bold;
+	padding-bottom:20px;
+}
+.photos p{
+	text-align:center;
+	line-height:25px;
+}
+.photos .p1{
+	margin-top:30px;
+	margin-left:30px;
+}
+/* section-3 end--> from here*/
+
+
+/* section-4 start--> from here*/
+.section-4{
+	height:1200px;
+	width:100%;
+}
+.secc{
+	font-size:45px;
+	margin-left:450px;
+}
+.picture{
+	height:800px;
+	width:100%;
+	margin-top:30px;
+}
+.pictures{
+	height:380px;
+	width:85%;
+	margin-left:120px;
+}
+.pictures1{
+	height:450px;
+	width:30.3%;
+	background:darkblue;
+	float:left;
+	margin:10px 10px;
+}
+.pictures1 h3{
+	margin-top:22px;
+	margin-left:18px;
+	color:#fff;
+	font-size:22px;
+}
+.location{
+	margin-left:20px;
+	margin-top:25px;
+	margin-right:12px;
+}
+.location1{
+	margin-left:20px;
+	margin-top:25px;
+	margin-right:12px;
+}
+.location2{
+	margin-left:100px;
+	margin-top:25px;
+	margin-right:12px;
+}
+.hr{
+	margin-left:10px;
+	margin-top:20px;
+	opacity:0.5;
+}
+.user{
+	margin-left:20px;
+	margin-top:10px;
+	margin-right:12px;
+}
+.user1{
+	margin-left:80px;
+	margin-top:10px;
+	margin-right:12px;
+}
+/* section-4 end--> from here*/
+
+/* section-5 start--> from here*/
+.section-5{
+	height:700px;
+	width:100%;
+	background:black;
+}
+.pari{
+	height:700px;
+	width:50%;
+	float:left;
+}
+.plane{
+	text-align:justify;
+	margin-top:140px;
+	margin-left:60px;
+	color:#fff;
+	font-size:50px;
+}
+.pari img{
+	margin-top:140px;
+}
+.pari p{
+	text-align:justify;
+	margin-left:65px;
+	margin-top:40px;
+	color:silver;
+	line-height:22px;
+}
+/* section-5 end--> from here*/
+
+
+/* section-6 start--> from here*/
+.section-6{
+	height:700px;
+	width:100%;
+}
+.section-6 h2{
+	font-size:50px;
+	padding-top:100px;
+	text-align:center;
+}
+.section-6 p{
+	text-align:justify;
+	margin-left:400px;
+	margin-top:100px;
+	font-size:16px;
+	line-height:40px;
+}
+.gola{
+	height:200px;
+	width:100%;
+}
+.circle{
+	height:200px;
+	width:48%;
+	float:left;
+}
+.circlee{
+	height:200px;
+	width:40%;
+	float:left;
+}
+.circle1{
+	height:80px;
+	width:80px;
+	border-radius:50%;
+	margin-left:300px;
+	margin-top:20px;
+	
+}
+.circle1 img{
+	border-radius:50%;
+	height:100%;
+	width:100%;
+	margin-left:150px;
+}
+.phool{
+	margin-top:50px;
+	font-size:16px;
+	color:red;
+}
+/* section-6 end--> from here*/
+
+/* section-7 start--> from here*/
+.section-7{
+	height:400px;
+	width:100%;
+	background:#000;
+}
+.first1{
+	height:400px;
+	width:33.3%;
+	float:left;
+}
+.firsti{
+	color:#fff;
+	margin-top:50px;
+	font-size:30px;
+	margin-left:100px;
+}
+.firstii{
+	text-align:justify;
+	margin-left:100px;
+	margin-top:20px;
+	line-height:30px;
+	color:silver;
+	font-size:15px;
+}
+ul{
+	margin-left:110px;
+	margin-top:30px;
+	font-size:18px;
+	color:silver;
+	line-height:30px;
+}
+ul a{
+	text-decoration:none;
+	color:silver;
+}
+.form{
+	height:50px;
+	width:290px;
+	margin-left:100px;
+	margin-top:20px;
+	border:2px solid silver;
+	border-radius:5px;
+}
+.in1{
+	width:80%;
+	height:100%;
+	float:left;
+}
+.in2{
+	width:20%;
+	height:100%;
+	float:left;
+}
+.in2 img{
+	margin-left:20px;
+	margin-top:10px;
+}
+input{
+	height:100%;
+	width:100%;
+	padding:10px;
+	font-size:16px;
+	background:#000;
+	border:none;
+	outline:none;
+	color:#fff;
+}
+/* section-7 end--> from here*/
+
+/* footer-section start--> from here*/
+
+.footer{
+	height:100px;
+	width:100%;
+	background:silver;
+	
+}
+.cpy{
+	height:100%;
+	width:50%;
+	float:left;
+}
+.cpy2{
+	height:100%;
+	width:50%;
+	float:left;
+	padding-left:350px;
+}
+.cpy p{
+	color:#fff;
+	margin-top:40px;
+}
+.cpy2 img{
+	margin-top:40px;
+	margin-left:30px;
+}
+/* footer-section end--> from here*/

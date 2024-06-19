@@ -1,0 +1,9 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Formatting Tag</title>
+	</head>
+	<body>
+		<h1 align="center" color="red">Formatting Tag</h1>
+	</body>
+</html>

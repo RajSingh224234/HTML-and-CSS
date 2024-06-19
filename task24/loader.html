@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>Loader</title>
+		<style>
+			.outer{
+				height:400px;
+				width:400px;
+				border-radius:50%;
+				border:10px solid #ccc;
+				border-top:10px solid skyblue;
+				border-bottom:10px solid gold;
+				background:gray;
+				margin:100px auto;
+				animation:loader linear 2s infinite;
+				position:relative;
+			
+			}
+			.loader{
+				height:100%;
+				width:100%;
+				border:2px solid transparent;
+				position:absolute;
+				top:300px;
+				left:600px;
+			}
+			@keyframes loader{
+				0%{transform:rotate(0deg);}
+				100%{transform:rotate(360deg);}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="outer">
+		</div>
+		<div class="loader"><font size="4" color="#fff">Loader...</font></div>
+	</body>
+</html>

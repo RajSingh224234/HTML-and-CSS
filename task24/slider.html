@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title>Timing Function</title>
+		<style>
+			.outer{
+				height:400px;
+				width:400px;
+				background:#fff;
+				background-size:cover;
+				object-fit:cover;
+				background-position:center;
+				margin:200px auto;
+				position:relative;
+			}
+			.ooter{
+				height:200px;
+				width:200px;
+				border:2px solid #000;
+			}
+			.outer1{
+				height:200px;
+				width:200px;
+				background-size:cover;
+				background:url(images/b2.jpg);
+				object-fit:cover;
+				background-position:center;
+				animation:demo 10s linear 2 alternate-reverse;
+				position:absolute;
+				background-color:red;
+			}
+			@keyframes demo{
+				0%{background:url(images/b3.jpg);left:0px;top:0px;}
+				50%{background:url(images/b5.jpg);top:400px;left:0px;}
+				75%{background:url(images/b6.jpg);bottom:0px;right:100px;}
+				100%{background:url(images/b2.jpg);}
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="outer">
+			<div class="ooter">
+				<div class="outer1"></div>
+			</div>
+		</div>
+	</body>
+</html>

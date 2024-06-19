@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title> Conic Gradient</title>
+	</head>
+	<style>
+		.conic{
+			height:300px;
+			width:300px;
+			background:conic-gradient(red,green,yellow);
+			margin:50px auto;
+		}
+		.conic1{
+			height:300px;
+			width:300px;
+			background:conic-gradient(at 60% 40%,red,green,yellow);
+			margin:50px auto;
+		}
+		.conic2{
+			height:300px;
+			width:300px;
+			background:conic-gradient(from 145deg,red,green,yellow);
+			margin:50px auto;
+		}
+		.conic3{
+			height:300px;
+			width:300px;
+			background:conic-gradient(red 0deg,red 90deg,green 90deg,green 180deg,yellow 180deg ,yellow 270deg,pink 270deg, pink 360deg );
+			margin:50px auto;
+			border-radius:50%;
+		}
+		.conic4{
+			height:300px;
+			width:300px;
+			background:repeating-conic-gradient(red 10%,yellow 20% );
+			margin:50px auto;
+			border-radius:50%;
+		}
+	</style>
+	<body>
+		<div class="conic"></div>
+		<div class="conic1"></div>
+		<div class="conic2"></div>
+		<div class="conic3"></div>
+		<div class="conic4"></div>
+	</body>
+</html>

@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>Timing Function</title>
+		<style>
+			.timing1{
+				height:80px;
+				width:80px;
+				background:red;
+				animation:demo 5s ease 2 alternate;
+				position:relative;
+			}
+			.timing2{
+				height:80px;
+				width:80px;
+				animation:demo 5s ease-in 2 alternate;
+				position:relative;
+				background:yellow;
+			}
+			.timing3{
+				height:80px;
+				width:80px;
+				background:pink;
+				animation:demo 5s ease-out 2 alternate;
+				position:relative;
+			}
+			.timing4{
+				height:80px;
+				width:80px;
+				background:gold;
+				animation:demo 5s ease-in-out 2 alternate;
+				position:relative;
+			}
+			.timing5{
+				height:80px;
+				width:80px;
+				background:navy;
+				animation:demo 5s linear 2 alternate;
+				position:relative;
+			}
+			.timing6{
+				height:80px;
+				width:80px;
+				background:teal;
+				animation:demo 5s cubic-bezier(.17,.67,.83,.67) 2 alternate;
+				position:relative;
+			}
+			@keyframes demo{
+				from{left:0;}
+				to{left:100%;}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="timing1"></div>
+		<div class="timing2"></div>
+		<div class="timing3"></div>
+		<div class="timing4"></div>
+		<div class="timing5"></div>
+		<div class="timing6"></div>
+	</body>
+</html>

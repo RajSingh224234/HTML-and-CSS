@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>Animation-property</title>
+		<style>
+			.animate{
+				height:400px;
+				width:600px;
+				margin:100px auto;
+				background:url(images/b2.jpg);
+				background-size:cover;
+				object-fit:cover;
+				background-position:center;
+				border:2px inset red;
+				animation-name:animate;
+				animation-duration:10s;
+				animation-iteration-count:infinite;
+			}
+			@keyframes animate{
+				0%{background:url(images/b3.jpg); background-size:cover;background-position:center;object-fit:cover;}
+				25%{background:url(images/b4.jpg); background-size:cover;background-position:center;object-fit:cover;}
+				50%{background:url(images/b5.jpg); background-size:cover;background-position:center;object-fit:cover;}
+				75%{background:url(images/b6.jpg); background-size:cover;background-position:center;object-fit:cover;}
+				100%{background:url(images/b2.jpg); background-size:cover;background-position:center;object-fit:cover;}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="animate"></div>
+	</body>
+</html>
